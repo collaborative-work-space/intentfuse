@@ -15,34 +15,116 @@
       <a href="#">Feng Xu</a>, 
       <a href="#">Lars Petersson</a>, 
       <a href="#">Dadong Wang</a>, 
-      <a href="#">Xun Li</a>, 
+      <a href="#">Xun Li</a>
     </p>
-    <p class="affiliation">
-      CSIRO Data61
-    </p>
+    <p class="affiliation">CSIRO Data61</p>
     <div class="buttons">
       <button>Paper</button>
-      <button>arXiv</button>
-      <button>Video</button>
       <button>Code</button>
     </div>
+  </header>
 
-    <h2>Descriptive Query</h2>
-    <p class="query-caption">"Something wooden, unlike a soft toy."</p>
-    
-    <div class="gif-container">
-      <figure>
-        <img src="images/lerf-desk.gif" alt="LERF Desk Demo">
-        <figcaption>LERF</figcaption>
-      </figure>
-      <figure>
-        <img src="images/intent-desk.gif" alt="Intent Desk Demo">
-        <figcaption>Ours</figcaption>
-      </figure>
+  <!-- Abstract -->
+  <section id="abstract">
+    <h2 class="section-title">Abstract</h2>
+    <p class="abstract-text">
+      IntentFuse is a lightweight middleware that grounds natural language queries in 3D scenes by connecting a compact language model with a pretrained LERF. It reformulates free-form queries into structured prompts, handling affordances and negations without extra training. Experiments show clear gains over LERF, enabling intuitive affordance grounding for robotics and AR/VR exploration.
+    </p>
+  </section>
+
+  <!-- Methodology -->
+  <section id="method">
+    <h2 class="section-title">Methodology</h2>
+    <div class="method-block">
+      <img src="images/pipeline.png" alt="Pipeline Figure" class="pipeline-img">
+      <p class="method-text">
+        <b>IntentFuse Query Engine overview.</b> The Query Evaluator extracts key roles from natural language, the Context Provider resolves ambiguities using scene priors, and the structured output is passed to the LERF engine for precise 3D grounding.
+      </p>
+    </div>
+  </section>
+
+  <!-- Experiments -->
+  <section id="experiments">
+    <h2 class="section-title">Experiments</h2>
+
+    <!-- Descriptive Query -->
+    <div class="experiment-block">
+      <h3 class="exp-title">Descriptive Query</h3>
+      <p class="query-caption">"Something wooden, unlike a soft toy."</p>
+      <div class="gif-container">
+        <figure>
+          <img src="images/lerf-table.gif" alt="LERF Desk">
+          <figcaption>LERF</figcaption>
+        </figure>
+        <figure>
+          <img src="images/intent-table.gif" alt="Ours Desk">
+          <figcaption>Ours</figcaption>
+        </figure>
+      </div>
     </div>
 
+    <!-- Negation Query -->
+    <div class="experiment-block">
+      <h3 class="exp-title">Negation Query</h3>
+      <p class="query-caption">"Something showing time, unlike rotating dial clock"</p>
+      <div class="gif-container">
+        <figure>
+          <img src="images/lerf-clock.gif" alt="LERF Negation">
+          <figcaption>LERF</figcaption>
+        </figure>
+        <figure>
+          <img src="images/intent-clock.gif" alt="Ours Negation">
+          <figcaption>Ours</figcaption>
+        </figure>
+      </div>
+    </div>
 
-  </header>
+    <!-- Affordance Query -->
+    <div class="experiment-block">
+      <h3 class="exp-title">Affordance Query</h3>
+      <p class="query-caption">"An object you can sit on."</p>
+      <div class="gif-container">
+        <figure>
+          <img src="images/lerf-lamp.gif" alt="LERF Affordance">
+          <figcaption>LERF</figcaption>
+        </figure>
+        <figure>
+          <img src="images/intent-lamp.gif" alt="Ours Affordance">
+          <figcaption>Ours</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+      <!-- Affordance Query -->
+    <div class="experiment-block">
+      <h3 class="exp-title">Affordance Query</h3>
+      <p class="query-caption">"An object you can sit on."</p>
+      <div class="gif-container">
+        <figure>
+          <img src="images/lerf-pillow.gif" alt="LERF Affordance">
+          <figcaption>LERF</figcaption>
+        </figure>
+        <figure>
+          <img src="images/intent-pillow.gif" alt="Ours Affordance">
+          <figcaption>Ours</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- BibTeX -->
+  <section id="bibtex">
+    <h2 class="section-title">BibTeX</h2>
+    <pre class="bibtex-block">
+@article{ravendran2025intentfuse,
+  title={IntentFuse: Language-Guided 3D Scene Understanding via Prompt Filtering and Fusion},
+  author={Ravendran, Ahalya and Perera, Madhawa and Xu, Feng and Petersson, Lars and Wang, Dadong and Li, Xun},
+  journal={arXiv preprint arXiv:xx.},
+  year={2025}
+}
+    </pre>
+  </section>
 
   <script src="js/script.js"></script>
 </body>
