@@ -61,24 +61,41 @@ figcaption {
   color: #444;
 }
 
+h2 {
+  font-size: 1.5em;
+  margin-top: 30px;
+  color: #222;
+}
+
+.query-caption {
+  font-style: italic;
+  font-size: 1.1em;
+  color: #444;
+  margin: 10px 0 20px 0;
+}
+
 .gif-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;      /* will wrap on smaller screens */
-  gap: 20px;            /* spacing between GIFs */
+  flex-wrap: wrap;  /* wraps neatly on smaller screens */
+  gap: 30px;
   margin: 20px 0;
 }
 
+.gif-container figure {
+  text-align: center;
+}
+
 .gif-container img {
-  max-width: 400px;     /* scale down big GIFs */
-  width: 100%;          /* responsive sizing */
+  max-width: 400px; /* adjust for your gif size */
+  width: 100%;
   height: auto;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
-h2 {
-  font-size: 1.5em;
-  margin-top: 30px;
-  color: #222;
+.gif-container figcaption {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #333;
 }
