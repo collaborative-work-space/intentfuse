@@ -2,21 +2,24 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: center; /* default left */
 }
 
 header {
   padding: 20px;
+  text-align: center; /* keep header content centered */
 }
 
 h1 {
   font-size: 2em;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .authors, .affiliation {
   font-size: 1em;
   color: #555;
+  text-align: center;
 }
 
 .authors a {
@@ -26,6 +29,7 @@ h1 {
 
 .buttons {
   margin: 15px 0;
+  text-align: center;
 }
 
 .buttons button {
@@ -59,4 +63,103 @@ figcaption {
   margin-top: 5px;
   font-size: 0.9em;
   color: #444;
+  text-align: center; /* captions centered */
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 30px;
+  color: #222;
+  text-align: center; /* section headings centered */
+}
+
+.query-caption {
+  font-style: normal;
+  font-size: 1.1em;
+  color: #444;
+  margin: 10px 0 20px 0;
+  text-align: center; /* query captions centered */
+}
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;  /* wraps neatly on smaller screens */
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.gif-container figure {
+  text-align: center;
+}
+
+.gif-container img {
+  max-width: 400px; /* adjust for your gif size */
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.gif-container figcaption {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2em;
+  margin: 40px 0 20px 0;
+  color: #1b9aaa; /* greenish-blue */
+  text-align: center;
+}
+
+.abstract-text {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify; /* justified text */
+  padding: 0 20px;
+}
+
+.method-text {
+  max-width: 900px;
+  margin: 20px auto 0;
+  font-size: 1em;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify; /* justified like paper text */
+}
+
+
+.pipeline-img {
+  max-width: 80%;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  display: block;
+  margin: 0 auto; /* center image */
+}
+
+.caption {
+  margin-top: 10px;
+  font-size: 0.95em;
+  color: #444;
+  font-style: normal;
+  text-align: justify; /* captions centered */
+}
+
+.bibtex-block {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 6px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 0.9em;
+  overflow-x: auto;
+  text-align: justify;       /* left aligned */
+  white-space: pre-wrap;  /* preserve formatting */
+  line-height: 1.4;
 }
