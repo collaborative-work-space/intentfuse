@@ -35,3 +35,24 @@ Clone and install [LERF](https://github.com/kerrj/lerf):
 git clone https://github.com/kerrj/lerf.git
 cd lerf
 pip install -e .
+```
+
+### 3. Additional Python Packages
+
+In addition, install the following packages required by IntentFuse:
+```bash
+pip install transformers graphviz
+```
+### 4. Install IntentFuse
+
+Our code is located in the **`src/` folder** of this repository.  
+These scripts extend LERF by adding **query restructuring, context-aware filtering, and intent fusion**.
+
+### 4. Verify Installation
+
+Once Nerfstudio and LERF are installed, the modules in `src/` can be directly used with your LERF experiments.  
+For example:
+```bash
+python src/run_intentfuse.py --config configs/example.yaml --output-dir /results  --smart-prompt "something to put flowers in"
+```
+
