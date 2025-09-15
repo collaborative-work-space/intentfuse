@@ -56,3 +56,26 @@ For example:
 python src/run_intentfuse.py --config configs/example.yaml --output-dir /results  --smart-prompt "something to put flowers in"
 ```
 
+## 📂 Repository Structure
+
+```text
+intentfuse/
+│── src/                 # Our middleware code (Query Evaluator, Context Provider, etc.)
+│── images/              # Project images and GIFs for the website
+│── css/                 # Stylesheets for project website
+│── js/                  # Scripts for project website
+│── index.html           # Project website main page
+└── README.md            # This file
+
+
+## 📖 Citation
+
+If you found this code/work to be useful in your own research, please consider citing the following:
+
+```bibtex
+@article{ravendran2025intentfuse,
+  title={IntentFuse: Language-Guided 3D Scene Understanding via Prompt Filtering and Fusion},
+  author={Ravendran, Ahalya and Perera, Madhawa and Xu, Feng and Petersson, Lars and Wang, Dadong and Li, Xun},
+  journal={International Conference on Digital Image Computing: Techniques and Applications},
+  year={2025}
+}
