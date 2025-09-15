@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="images/abstract.png" alt="IntentFuse Teaser" width="80%">
+  <img src="images/abstract.png" alt="IntentFuse Teaser" width="70%">
 </p>
 
 ### 📌 Overview
