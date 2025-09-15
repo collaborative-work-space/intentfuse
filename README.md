@@ -18,5 +18,20 @@
   <img src="images/abstract.png" alt="IntentFuse Teaser" width="70%">
 </p>
 
-### 📌 Overview
+## 📌 Overview
 **IntentFuse** is a lightweight middleware that grounds natural language queries in 3D scenes by connecting a compact language model with a pretrained LERF. It reformulates free-form queries into structured prompts, handling affordances and negations without extra training. Experiments show clear gains over LERF, enabling intuitive affordance grounding for robotics and AR/VR exploration.
+
+## ⚙️ Environment Setup
+Our code is implemented as a **middleware on top of [LERF](https://github.com/kerrj/lerf)**, which itself is built on [Nerfstudio](https://docs.nerf.studio/).  
+This setup ensures that **IntentFuse works seamlessly with any CLIP-based querying framework**.
+
+### 1. Install Nerfstudio
+Follow the official [Nerfstudio installation guide](https://docs.nerf.studio/quickstart/installation.html).  
+We recommend creating a fresh conda environment as described in their instructions.
+
+### 2. Install LERF
+Clone and install [LERF](https://github.com/kerrj/lerf):
+```bash
+git clone https://github.com/kerrj/lerf.git
+cd lerf
+pip install -e .
