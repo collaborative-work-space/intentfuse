@@ -10,6 +10,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/collaborative-work-space/intentfuse/">Paper</a> |
-  <a href="https://github.com/collaborative-work-space/intentfuse/">Project Page</a>
+  <a href="https://github.com/collaborative-work-space/intentfuse/upload/main/asset/paper.pdf">Paper</a> |
+  <a href="https://collaborative-work-space.github.io/intentfuse/">Project Page</a>
 </p>
+
+<p align="center">
+  <img src="assets/abstract.png" alt="IntentFuse Teaser" width="80%">
+</p>
+
+### 📌 Overview
+**IntentFuse** is a lightweight middleware that grounds natural language queries in 3D scenes by connecting a compact language model with a pretrained LERF. It reformulates free-form queries into structured prompts, handling affordances and negations without extra training. Experiments show clear gains over LERF, enabling intuitive affordance grounding for robotics and AR/VR exploration.
