@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/collaborative-work-space/intentfuse/upload/main/asset/paper.pdf">Paper</a> |
+  <a href="https://ieeexplore.ieee.org/xpl/conhome/1001512/all-proceedings">Paper</a> |
   <a href="https://collaborative-work-space.github.io/intentfuse/">Project Page</a>
 </p>
 
@@ -48,7 +48,7 @@ pip install transformers graphviz
 Our code is located in the **`src/` folder** of this repository.  
 These scripts extend LERF by adding **query restructuring, context-aware filtering, and intent fusion**.
 
-### 4. Verify Installation
+### 5. Verify Installation
 
 Once Nerfstudio and LERF are installed, the modules in `src/` can be directly used with your LERF experiments.  
 For example:
