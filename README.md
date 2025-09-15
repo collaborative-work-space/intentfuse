@@ -66,7 +66,7 @@ intentfuse/
 │── js/                  # Scripts for project website
 │── index.html           # Project website main page
 └── README.md            # This file
-
+```
 
 ## 📖 Citation
 
@@ -79,3 +79,4 @@ If you found this code/work to be useful in your own research, please consider c
   journal={International Conference on Digital Image Computing: Techniques and Applications},
   year={2025}
 }
+```
