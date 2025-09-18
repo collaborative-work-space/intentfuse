@@ -69,14 +69,14 @@ figcaption {
 h2 {
   font-size: 1.5em;
   margin-top: 30px;
-  color: #222;
+  color: #333;
   text-align: center; /* section headings centered */
 }
 
 .query-caption {
   font-style: normal;
   font-size: 1.1em;
-  color: #444;
+  color: #333;
   margin: 10px 0 20px 0;
   text-align: center; /* query captions centered */
 }
@@ -111,7 +111,7 @@ h2 {
 .section-title {
   font-size: 2em;
   margin: 40px 0 20px 0;
-  color: #1b9aaa; /* greenish-blue */
+  color: #005fa3; /* greenish-blue */
   text-align: center;
 }
 
